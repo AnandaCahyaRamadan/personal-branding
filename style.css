@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #7325f7;
+  --blue-color: #3b83f9;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.911) !important;
+    background-image: url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+.bg-primary {
+    background-color: #3b83f9;
+}
+.color-primary {
+    color: #3b83f9;
+}
+.bg-purple {
+    background-color: #7325f7;
+}
+.text-purple {
+    color: #7325f7 !important;
+    font-family: 'Gabarito', sans-serif !important;
+}
+.navbar {
+    font-family: 'Lato', sans-serif !important;
+}
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+.hero-text {
+    font-family: 'Gabarito', sans-serif !important;
+    font-size: 5rem !important;
+    font-weight: 800 !important;
+    line-height: 0.9;
+    color: white;
+}
+.btn-primary {
+    background-color: #3b83f9 !important;
+}
+.btn-purple {
+    background-color: #7325f7 !important;
+    color: white !important;
+}
+
+.download-btn {
+    border-radius: 10px !important;
+    padding: 7px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: bold !important;
+    color: #7325f7 !important;
+    outline: 1px solid #7325f7 !important;
+    transition: background-color 0.3s, color 0.3s, outline 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #7325f7 !important;
+    color: white !important;
+    outline: none !important;
+}
+
+.contact-btn {
+    border-radius: 10px !important;
+    padding: 7px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    font-weight: bold !important;
+}
+
+.btn-danger {
+    background-color: red !important;
+    color: white !important;
+    outline: none !important;
+}
+
+/* .btn-danger:hover {
+    background-color: red !important;
+    color: white !important;
+    outline: none !important;
+} */
+
+.nav-link {
+    color: white !important;
+}
+
+.active {
+    color: #7325f7 !important;
+    font-weight: 800 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  background: none !important;
+  padding: 0;
+  outline: none !important;
+  box-shadow: none !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.navbar-toggler .bi {
+  font-size: 1.8rem !important;
+}
+/* @media (max-width: 991.98px) {
+  .download-btn {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+} */
+
+.text-sub {
+    font-weight: 800 !important;
+    font-size: 2rem;
+}
+
+.bi-facebook {
+    color: #3b83f9 !important;
+    font-size: 1.5rem !important;
+}
+.bi-linkedin {
+    color: #3b83f9 !important;
+    font-size: 1.5rem !important;
+}
+.bi-instagram {
+    color: red !important;
+    font-size: 1.5rem !important;
+}
+.bi-tiktok {
+    color: rgb(255, 255, 255) !important;
+    font-size: 1.5rem !important;
+}
+
+.nav-link:hover {
+    color: #7325f7 !important;
+    font-weight: 800 !important;
+}
+
+.title {
+    font-family: 'Gabarito', sans-serif !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    text-align: center;
+}
+
+.portofolio-items {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.card-title {
+    font-weight: 700 !important;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: unset !important;
+    /* border: 1px solid #7325f7 !important; */
+}
+
+.card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-right-radius: unset !important;
+    border-top-left-radius: unset !important;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+#hero-image {
+  animation: bounce 1s ease-in-out infinite;
+}
+
+.text-white-opa {
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.title {
+  border-bottom: 3px solid #7b2ff7;
+  padding-bottom: 8px;
+  display: inline-block; 
+  text-align: center !important;
+}
+.title2 {
+  border-bottom: 3px solid #000000;
+  padding-bottom: 8px;
+  display: inline-block; 
+  text-align: center !important;
+}
+
+
+.card-experience {
+    background-color: #fff;
+    color: #212529;
+    border-left: 4px solid black;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+  }
+
+.card-experience:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(168, 85, 247, 0.25);
+}
+.swiper-pagination {
+    position: unset !important;
+    margin-top: 20px !important;
+  }
+
+  /* Bullet normal dan aktif */
+  .swiper-pagination-bullet {
+    background-color: #6f42c1 !important;
+    opacity: 1;
+    margin: 0 6px;
+    width: 10px;
+    height: 10px;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #fff;
+  }
+
+  /* Responsive spacing bawah */
+  .mySwiper {
+    padding-bottom: 50px;
+  }
+
+  .bg-purple {
+    background-color: #7325f7;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 2px);
+    background-size: 20px 20px;
+}
+
+.typed-cursor {
+    display: none !important;
+}
+
+.bg-card-purple {
+    background-color: #7325f7 !important;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 2px);
+    background-size: 20px 20px;
+    border-radius: unset !important;
+}
+.bg-card-red {
+    background-color: red !important;
+    background-size: 20px 20px;
+    border-radius: unset !important;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 2px);
+}
+.bg-card-white {
+    background-color: white !important;
+    background-image: radial-gradient(rgba(30, 23, 23, 0.3) 1px, transparent 2px);
+    background-size: 20px 20px;
+    border-radius: unset !important;
+    color: black !important;
+}
+
+.white-btn {
+    border-radius: 10px !important;
+    padding: 7px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    font-weight: bold !important;
+    color: white !important;
+    outline: 1px solid white !important;
+    transition: background-color 0.3s, color 0.3s, outline 0.3s;
+}
+
+.white-btn:hover {
+    background-color: white !important;
+    color: #000000 !important;
+    outline: none !important;
+}
