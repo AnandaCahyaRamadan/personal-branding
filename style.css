@@ -277,7 +277,14 @@ body {
 }
 .bg-card-white {
     background-color: white !important;
-    background-image: radial-gradient(rgba(30, 23, 23, 0.3) 1px, transparent 2px);
+    background-image: radial-gradient(rgba(30, 23, 23, 0.2) 1px, transparent 2px);
+    background-size: 20px 20px;
+    border-radius: unset !important;
+    color: black !important;
+}
+.bg-card-primary {
+    background-color: #3b83f9 !important;
+    background-image: radial-gradient(rgba(30, 23, 23, 0.2) 1px, transparent 2px);
     background-size: 20px 20px;
     border-radius: unset !important;
     color: black !important;
