@@ -132,7 +132,7 @@ body {
     color: red !important;
     font-size: 1.5rem !important;
 }
-.bi-tiktok {
+.bi-github {
     color: rgb(255, 255, 255) !important;
     font-size: 1.5rem !important;
 }
@@ -310,4 +310,8 @@ body {
     background-color: white !important;
     color: #000000 !important;
     outline: none !important;
+}
+
+.text-company {
+    color: #7325f7;
 }
