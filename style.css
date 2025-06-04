@@ -169,7 +169,7 @@ body {
 }
 
 .card-img-top {
-    height: 200px;
+    height: 170px;
     object-fit: cover;
     border-top-right-radius: unset !important;
     border-top-left-radius: unset !important;
